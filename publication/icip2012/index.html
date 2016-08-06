@@ -1,0 +1,100 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SPACE-TIME PATCH-BASED HOLE FILLING WITH RANDOM WALKS IN VIEW SYNTHESIS</title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29519242-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<table width=900 align=center>
+
+<tr><td><br></td></tr>
+
+
+<tr>
+<td width=70><img src="logo.png" width="54" height="56"  alt="icip2012banner" align=center></td>
+<td>
+<h2 style="FONT-FAMILY: verdana">SPACE-TIME PATCH-BASED HOLE FILLING WITH RANDOM WALKS IN VIEW SYNTHESIS</h2>
+</td></tr>
+
+<tr><td colspan=2>
+<h3 style="FONT-FAMILY: verdana">Sunghwan Choi, Bumsub Ham, and Kwanghoon Sohn<br>School of Electrical and Electronic Eng., Yonsei University, Seoul, Korea</h3>
+
+<p style="FONT-FAMILY: verdana">In this paper, we propose an exemplar-based hole filling method in
+view synthesis in which a temporal consistency is enforced within a
+random walks framework. As opposed to the conventional inpainting
+where the filling priority is curtail, the sample space also influences
+the performance of inpainting in case of filling a disoccluded
+region in view synthesis. The proposed method first classifies boundary
+along the hole region whether it belongs to the foreground or
+background. By using this boundary classification as initial seeds,
+each individual frame of video sequence is then automatically labeled
+as a foreground or a background within a random walk framework.
+The background region is then only used as the sample space
+in the inpainting process. Furthermore, most existing methods consider
+a frame-wise consistency only, and neglects inter-frame relations,
+which results in flicker artifacts. In order to maintain a temporal
+consistency, the video is viewed of as a space-time volume, so
+that the space-time patch can be used in a unified framework. The
+experimental results show that the proposed method is superior to the
+state-of-the-art methods, and provides both spatially and temporally
+consistent results without any annoying flicker artifacts.</p>
+</td>
+</tr>
+
+
+<tr><td colspan=2>
+<br><h3 style="FONT-FAMILY: verdana">Experimental Results (Demo videos)</h3>
+<p style="FONT-FAMILY: verdana">
+"Ballet" sequence provided by <a href="http://research.microsoft.com/en-us/um/people/sbkang/3dvideodownload/" target="_blank">MSR</a> is used during the experiment. Virtual view 3 is rendered by using the reference view 4. Parameters are provided in our paper.
+</p>
+</td></tr>
+
+<tr><td colspan=2>
+
+<ul><li style="FONT-FAMILY: verdana"><a href="result_criminisi.wmv">The results of Criminisi's method</a> [1]</li></ul>
+<embed src="result_criminisi.wmv" width="512" height="384" autostart="false"><br><br><br>
+
+
+<ul><li style="FONT-FAMILY: verdana"><a href="result_daribo.wmv">The results of Daribo's method</a> [2]</li></ul>
+<embed src="result_daribo.wmv" width="512" height="384" autostart="false"><br><br><br>
+
+<ul><li style="FONT-FAMILY: verdana"><a href="result_proposed.wmv">The results of the proposed method</a></li></ul>
+<embed src="result_proposed.wmv" width="512" height="384" autostart="false">
+
+
+</td></tr>
+
+<tr><td colspan=2>
+<br><br><br>
+<h3>References</h3>
+<p style="FONT-FAMILY: verdana">[1] A. Criminisi, P. Perez, and K. Toyama, "Region Filling and
+Object Removal by Exemplar-Based Image Inpainting," <em>IEEE
+Trans. Image Process.</em>, vol. 13, no. 9, pp. 1200-1212, Sep.
+2004.</p>
+<p style="FONT-FAMILY: verdana">[2] I. Daribo and H. Saito, "A novel inpainting-based layered depth
+video for 3DTV," <em>IEEE Trans. Broadcast.</em>, vol. 57, no. 2, Jun.
+2011.</p>
+</td></tr>
+
+
+</table>
+
+</body>
+</html>
